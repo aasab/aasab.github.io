@@ -100,19 +100,10 @@
 
 
   	<div class="site-wrap">
-    	<header class="site-header px2 px-responsive">
-				<div class="mt2 wrap">
-	  			<div class="measure">
-						<a href="./" class="site-title" style="font-family: 'Pacifico', cursive;"> aasab</a>
-						<nav class="site-nav">
-			        <a href="./about/">About</a>
-			        <a href="./contact_us/">Contact Us</a>
-				  	</nav>
-      			<div class="clearfix"></div>
 
-    			</div>
-  			</div>
-			</header>
+    	<?php
+				include("./theme_files/header.php");
+			?>
 
 			<!--- Blog content START from here... --->
     	<div class="post p2 p-responsive wrap" role="main">
@@ -149,14 +140,10 @@
 			<!--- Blog content END here... --->
 
 		</div>
-		<footer class="center">
-			<div class="measure">
-				<small>
-		      Theme crafted with &lt;3 by <a href="http://linkedin.com/in/ahmedshahzad141">Ahmed Shahzad</a> (<a href="https://twitter.com/Ahmed_Xhahzad">@Ahmed_Xhahzad</a>).<br>
-		      &lt;/&gt; available on <a href="https://github.com/ahmed141/">Github</a>.
-				</small>
-			</div>
-		</footer>
+
+		<?php
+			include("./theme_files/footer.php");
+		?>
 
 	</body>
 
